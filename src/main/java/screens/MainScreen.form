@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="screens.MainScreen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="900" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="900" height="400"/>
+      <minimumSize width="900" height="400"/>
+      <preferredSize width="900" height="400"/>
+    </properties>
+    <border type="empty">
+      <size top="0" left="20" bottom="20" right="20"/>
+    </border>
+    <children>
+      <grid id="1f67" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="empty"/>
+        <children>
+          <component id="33eaa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="32" style="1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Welcome To Stock Monitor!"/>
+            </properties>
+          </component>
+          <vspacer id="fa1eb">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <component id="4fedb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="20" style="0"/>
+              <text value="Choose an option from below to get started."/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <vspacer id="a9af8">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="a4282">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="75" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="20a6c" layout-manager="GridBagLayout">
+        <constraints border-constraint="East"/>
+        <properties>
+          <preferredSize width="400" height="150"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="763c" class="javax.swing.JButton" binding="btnStockMon">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value=""/>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="share_market.jpg"/>
+              <iconTextGap value="20"/>
+              <label value="Stock Market Monitor"/>
+              <preferredSize width="300" height="150"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Stock Market Monitor"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="89f55" layout-manager="GridBagLayout">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="400" height="150"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <component id="16397" class="javax.swing.JButton" binding="btnRateMon">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value=""/>
+              <focusPainted value="false"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="forex_icon.jpg"/>
+              <iconTextGap value="20"/>
+              <label value="Exchange Rate Monitor"/>
+              <preferredSize width="300" height="150"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Exchange Rate Monitor"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="3"/>
+              <visible value="true"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
